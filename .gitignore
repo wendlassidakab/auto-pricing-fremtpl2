@@ -1,0 +1,38 @@
+# --- R / RStudio ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.bak
+
+
+# --- Données ---
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+!data/**/README.md
+
+# --- Sorties volumineuses---
+outputs/models/*.rds
+outputs/figures/*.png
+outputs/figures/*.pdf
+outputs/tables/*.csv
+outputs/reports/*.html
+!outputs/**/.gitkeep
+
+# --- Rapports rendus ---
+reports/*.html
+reports/*.pdf
+reports/*_files/
+reports/*_cache/
+
+# --- OS / éditeurs ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
